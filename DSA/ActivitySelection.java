@@ -41,6 +41,7 @@ public class ActivitySelection {
         for(int i = 1; i<arr.size() ; i++) {
             if(ei <= arr.get(i).start) {
                 count++;
+                ei = arr.get(i).end;
             }
         }
 
